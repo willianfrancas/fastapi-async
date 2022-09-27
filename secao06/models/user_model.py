@@ -15,7 +15,7 @@ class UserModel(settings.DBBaseModel):
     articles = relationship(
         'ArticleModel',
         cascade='all,delete-orphan',
-        back_populates='criador',
+        back_populates='creator',
         uselist=True,
         lazy='joined'
     )
