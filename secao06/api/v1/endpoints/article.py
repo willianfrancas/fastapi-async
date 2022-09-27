@@ -52,7 +52,7 @@ async def get_article(article_id: int, db: AsyncSession = Depends(get_session)):
 
 
 # PUT ARTICLE
-@router.get('/{article_id}', response_model=ArticleSchema, status_code=status.HTTP_202_ACCEPTED)
+@router.put('/{article_id}', response_model=ArticleSchema, status_code=status.HTTP_202_ACCEPTED)
 async def put_article(article_id: int, article: ArticleSchema, db: AsyncSession = Depends(get_session), logged_user: UserModel = Depends(get_current_user)):
     async with db as session:
         query = select(ArticleModel).filter(ArticleModel.id == article_id)

@@ -10,4 +10,4 @@ class ArticleSchema(BaseModel):
     user_id: Optional[int]
 
     class Config:
-        orm_mode: True
+        orm_mode = True

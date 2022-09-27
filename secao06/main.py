@@ -13,7 +13,8 @@ if __name__ == '__main__':
 """
 TOKEN = "
     eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
-    .eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNjY0NzE4NDE2LCJpYXQiOjE2NjQxMTM2MTYsInN1YiI6IjEifQ
-    .7fDhrPXFOuBwRP0Jeu9HBl85TygPQN-auFGqmx3gb0M"
+    .eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNjY0ODM2NjMzLCJpYXQiOjE2NjQyMzE4MzMsInN1YiI6IjEifQ
+    ._xRGlU7BUetbOpLQTE8rsPz4yF2PB6iWz5hpapsWCRM
+    "
 Type = 'Bearer'
 """
